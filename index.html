@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>validar - formulario with js</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Formulário de Cadastro</h1>
+      <ul>
+        <li>Nenhum campo pode estar em branco</li>
+        <li>Usuario so poderá conter letras e/ou números</li>
+        <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+        <li>Senha precisa ter entre 6 e 12 caracteres</li>
+      </ul>
+      <form action="/" method="POST" class="formulario">
+        <label for="">Nome</label>
+        <input type="text" class="nome" />
+        <label for="">Sobrenome</label>
+        <input type="text" class="sobrenome" />
+        <label for="">CPF</label>
+        <input type="text" class="cpf" />
+        <label for="">Usuário</label>
+        <input type="text" class="usuario" />
+        <label for="">Senha</label>
+        <input type="text" class="senha" />
+        <label for="">Repetir Senha</label>
+        <input type="text" class="repetirSenha" />
+        <button type="submit" class="btn">enviar</button>
+      </form>
+    </section>
+  </body>
+</html>
